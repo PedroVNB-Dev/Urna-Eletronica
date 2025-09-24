@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="urna">
+        <section class="visor">
+            <h1>Presidente</h1>
+    <section class="partido">
+            <label for="Valores">Numeros: </label>
+                <input id="v1" type="text">
+                <input id="v2" type="text">
+                <input id="v3" type="text" class="vereador">
+                <input id="v4" type="text" class="vereador">
+            
+        </section>
+    <div>
+            <label for="nome">Nome:</label>
+            <span id="nome"></span>
+        </div>
+    <div>
+            <label for="partido">Partido:</label>
+            <span id="partido"></span>
+    </div>
+</div>
+                <div id="foto-candidato"><img src="" alt="bruh"></div>
+            
+</section>
+        
+         <section class="numeros">
+                <table>
+                    <tr>
+                        <td><button onclick="clique('1')" class="digito">1</button></td>
+                        <td><button onclick="clique('2')" class="digito">2</button></td>
+                        <td><button onclick="clique('3')" class="digito">3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clique('4')" class="digito">4</button></td>
+                        <td><button onclick="clique('5')" class="digito">5</button></td>
+                        <td><button onclick="clique('6')" class="digito">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clique('7')" class="digito">7</button></td>
+                        <td><button onclick="clique('8')" class="digito">8</button></td>
+                        <td><button onclick="clique('9')" class="digito">9</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="clique('0')" class="digito">0</button></td>
+                        <td><button id="branco" onclick="nulo()">BRANCO</button></td>
+                        <td><button onclick="limpar()" id="corrigir">CORRIGIR</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="confirmar()" id="confirmar">CONFIRMAR</button></td>
+                        <td><button onclick="final()">Finalizar Votação</button></td>
+                        <td><button onclick="proximoVoto()" id="corrigir">Proximo</button></td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
